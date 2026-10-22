@@ -1,4 +1,11 @@
 # **Clasificación - Línea 144**
+
+<!-- Queremos clasificar si un reporte corresponde a una situación de alto o mediano riesgo, esto en base a la cantidad de reportes por tipología de violencia de género en las distintas provincias de Argentina que hubieron para proponer medidas exclusivas en los casos exuberantes. Los resultados obtenidos sirven para los ministerios de desarrollo social, la Línea 144 y organizaciones de la sociedad civil con el fin de optimizar las líneas de atención.
+Los reportes se descargan en formato CSV desde la plataforma Kaggle (tiene un apróximado de 90 mil
+registros desde el 2020 hasta el 2023) conteniendo históricos a nivel nacional: Línea 144 Argentina en Kaggle.
+En el EDA analizaremos la información de cada reporte (fecha, provincia, genero de la victima como del
+agresor, su vinculo y el/los tipos de violencia). Identificaremos con gráficos de barras las provincias con mayor volúmen de reportes y el tipo de agresión más recurrente, como también la correlación entre vinculo y tipo/s de agresión. Como modelo, se utilizara un algoritmo de clasificación para predecir la gravedad del caso. -->
+
 Trabajo final para la materia _Técnicas de Procesamiento del Habla_: traductor desarrollado en Python con Streamlit usando edge_tts y deep_translator.
 
 La app solamente esta desplegado en _Streamlit_ para poder interactuar con el LLM basado en los motores de _Google Translator_ (de Google) y MyMemory (de Microsoft).
