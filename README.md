@@ -15,17 +15,25 @@ agresor, su vinculo y el/los tipos de violencia). Identificaremos con gráficos 
 ```text
 .
 │
-├── versiones/              # Archivos .py sobre la evolución del LLM
+├── data/                   # Evolución del dataset
+│   ├── processed/
+│   │    └── Dataset procesado de tipo .parquet
+│   ├── raw/
+│   │    └── Dataset crudo
+│   └── raw_utf-8/
+│        └── Dataset crudo codificado a utf-8
+│
+├── notebooks/
+│   ├── EDA_Linea144.ipynb
+│   └── Tratamiento_Linea144.ipynb
 │
 ├── README.md               # Información sobre el repositorio
-├── app.py                  # Archivo de python que consume un LLM
-├── instalar.bat            # Instala las librerias de requirements.txt
-└── requirements.txt        # Requisitos (librerias) para utilizar el LLM
+└── requirements.txt        # Requisitos (librerias)
 ```
 
-## 🛫 **Deployment **
+<!--## 🛫 **Deployment **
 
-Enlace a la app desplegada en Streamlit: <!-- https://traductortph.streamlit.app/-->
+Enlace a la app desplegada en :  https://traductortph.streamlit.app/-->
 
 ## 🛠️ Herramientas
 
