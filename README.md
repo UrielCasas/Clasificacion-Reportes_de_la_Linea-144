@@ -28,7 +28,7 @@ agresor, su vinculo y el/los tipos de violencia). Identificaremos con gráficos 
 │   └── Tratamiento_Linea144.ipynb
 │
 ├── README.md               # Información sobre el repositorio
-└── requirements.txt        # Requisitos (librerias)
+└── requirements.txt        # Requisitos (librerias)              ¡POR AGREGAR!
 ```
 
 <!--## 🛫 **Deployment **
