@@ -1,0 +1,12 @@
+services:
+  api-linea144:
+    build:
+      context: ./linea144-docker
+      dockerfile: Dockerfile
+    container_name: api-linea144
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./linea144-docker/api_keys.json:/app/api_keys.json
+      - ./linea144-docker/logs_uso.csv:/app/logs_uso.csv
+    restart: unless-stopped

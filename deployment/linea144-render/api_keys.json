@@ -1,0 +1,19 @@
+{
+  "claves": [
+    {
+      "cliente": "Frontend Web",
+      "key": "linea144-web-2026-xyz",
+      "activa": true
+    },
+    {
+      "cliente": "Equipo Analisis",
+      "key": "linea144-analisis-987",
+      "activa": true
+    },
+    {
+      "cliente": "Prueba Desactivada",
+      "key": "linea144-test-000",
+      "activa": false
+    }
+  ]
+}

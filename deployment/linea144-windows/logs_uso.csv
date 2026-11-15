@@ -1,0 +1,7 @@
+sep=,
+fecha_hora,cliente,endpoint,estado,detalle
+2026-11-15 17:03:37,Frontend Web,/predecir/riesgo,200_OK,Riesgo=Alto
+2026-11-15 17:03:48,Clave_Invalida,/predecir/riesgo,401_RECHAZADO,API Key inválida o desactivada
+2026-11-15 17:04:08,Frontend Web,/predecir/riesgo,200_OK,Riesgo=Alto
+2026-11-15 17:04:36,Clave_Invalida,/predecir/riesgo,401_RECHAZADO,API Key inválida o desactivada
+2026-11-15 17:05:33,Prueba Desactivada,/predecir/riesgo,200_OK,Riesgo=Alto
