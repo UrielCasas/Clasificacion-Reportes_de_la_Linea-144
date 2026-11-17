@@ -1,7 +1,6 @@
-# API Línea 144 - Versión v9 (Seguridad JSON + Auditoría CSV)
+# API Línea 144 - (Seguridad JSON + Auditoría CSV)
 
-## Novedades en v9
-1. **Pydantic V2**: Esquemas actualizados sin advertencias de obsolescencia (`ConfigDict` y `examples`).
+1. **Pydantic**: Esquemas actualizados sin advertencias de obsolescencia (`ConfigDict` y `examples`).
 2. **Gestión de múltiples API Keys (`api_keys.json`)**: Permite activar/desactivar claves y asignar un nombre de cliente a cada una sin reiniciar el servidor.
 3. **Auditoría de uso (`logs_uso.csv`)**: Registra automáticamente fecha/hora, cliente, endpoint, estado HTTP y resumen de predicción.
 
