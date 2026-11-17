@@ -1,4 +1,4 @@
-# **Clasificación de Riesgo- Línea 144**
+# **Clasificación de Riesgo - Línea 144**
 Trabajo final para la materia _Práctica Profesional: Análisis y Exploración de Datos_: Clasificador sobre situación de riesgo (alto o medio) de reportes de la línea 144 por tipología de violencia de género en las distintas provincias de Argentina que hubieron para proponer medidas exclusivas en los casos exuberantes.
 
 Los resultados obtenidos sirven para los ministerios de desarrollo social, la Línea 144 y organizaciones de la sociedad civil con el fin de optimizar las líneas de atención.
@@ -23,12 +23,32 @@ agresor, su vinculo y el/los tipos de violencia). Identificaremos con gráficos 
 │   └── raw_utf-8/
 │        └── Dataset crudo codificado a utf-8
 │
-├── notebooks/
+├── deployment/             # Despliegue de los modelos
+│   ├── linea144-docker/
+│   │    └── 
+│   ├── linea144-frontend/
+│   │    └── 
+│   ├── linea144-render/
+│   │    └── 
+│   ├── linea144-windows/
+│   │    └── 
+│   ├── README.md
+│   └── docker-compose.yml
+│
+├── modelos/                # Modelos entrenados
+│   ├── riesgo.joblib
+│   └── volumen.joblib
+│
+├── notebooks/              # Etapas sobre CRIPS-DM
+│   ├── training_captures/
+│   │    └── Capturas de métricas obtenidas en la evaluación
 │   ├── EDA_Linea144.ipynb
+│   ├── Entrenamiento_Linea144.ipynb
+│   ├── Entrenamiento_Linea144.py
 │   └── Tratamiento_Linea144.ipynb
 │
-├── README.md               # Información sobre el repositorio
-└── requirements.txt        # Requisitos (librerias)              ¡POR AGREGAR!
+├── LICENSE                 # Licencia MIT
+└── README.md               # Información sobre el repositorio
 ```
 
 <!--## 🛫 **Deployment **
@@ -38,6 +58,9 @@ Enlace a la app desplegada en :  https://traductortph.streamlit.app/-->
 ## 🛠️ Herramientas
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://docs.python.org/es/3/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat\&logo=html5\&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![Render](https://img.shields.io/badge/Render-000000?style=flat\&logo=render\&logoColor=white)](https://render.com/)
+
 <!--
 [![edge-tts](https://img.shields.io/badge/edge--tts-0078D4?style=flat&logo=microsoftedge&logoColor=white)](https://pypi.org/project/edge-tts/)
 [![deep-translator](https://img.shields.io/badge/deep--translator-4285F4?style=flat&logo=googletranslate&logoColor=white)](https://deep-translator.readthedocs.io/en/latest/)
