@@ -25,13 +25,9 @@ agresor, su vinculo y el/los tipos de violencia). Identificaremos con gráficos 
 │
 ├── deployment/             # Despliegue de los modelos
 │   ├── linea144-docker/
-│   │    └── 
 │   ├── linea144-frontend/
-│   │    └── 
 │   ├── linea144-render/
-│   │    └── 
 │   ├── linea144-windows/
-│   │    └── 
 │   ├── README.md
 │   └── docker-compose.yml
 │
