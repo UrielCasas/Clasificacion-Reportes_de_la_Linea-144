@@ -79,6 +79,25 @@ Enlace a la app desplegada en :  https://traductortph.streamlit.app/-->
 [![glob](https://img.shields.io/badge/glob-3776AB?style=flat&logo=python&logoColor=white)](https://docs.python.org/3/library/glob.html)
 -->
 
+## Probar en Windows
+1. Colocá tus modelos `riesgo.joblib` y `volumen.joblib` dentro de la carpeta `modelos/`.
+2. Instalá dependencias: `pip install -r requirements.txt`
+3. Iniciá el servidor: `uvicorn main:app --reload`
+4. En el navegador: http://127.0.0.1:8000/
+
+## Despliegue en Render + Neon (PostgreSQL gratuito persistente)
+1. Subí este proyecto a tu repositorio en GitHub (recordá colocar tus archivos `riesgo.joblib` y `volumen.joblib` dentro de la carpeta `modelos/`).
+2. Creá una base gratuita en Neon y copiá la **Connection String** (`postgresql://...`).
+3. En **Render**, entrá a tu servicio -> **Environment** y creá la variable:
+   - **Key:** `DATABASE_URL`
+   - **Value:** tu URL de conexión de Neon.
+4. Si no configurás `DATABASE_URL` (por ejemplo al probar en tu PC local), la aplicación usará automáticamente una base SQLite en `datos/linea144.db`.
+
+## Usuarios iniciales creados automáticamente
+- **Superusuario (ve todo + gestión de usuarios):** `su` / clave: `su123`
+- **Operador Riesgo (solo formulario 1):** `operador_riesgo` / clave: `123`
+- **Planificador Volumen (solo formulario 2):** `planificador` / clave: `456`
+
 ## 👥 **Autores**
 - Arnaldo Antonio Fustet
 - Uriel Maximiano Casas
